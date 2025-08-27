@@ -54,15 +54,10 @@ Gesture Language Translator - Alphabet/
 ## Training the Model
 
 To train the model from scratch:
-
 python train.py
-
 This will:
-
 Load dataset paths from config.py
-
 Build the model from model.py
-
 Save the trained model as asl_model.h5
 
 ---
@@ -70,15 +65,10 @@ Save the trained model as asl_model.h5
 ## Evaluating the Model
 
 To evaluate the trained model:
-
 python evaluate.py
-
 This outputs:
-
 Accuracy & loss
-
 Classification metrics
-
 Confusion matrix
 
 ---
@@ -86,11 +76,8 @@ Confusion matrix
 ## Predicting Gestures
 
 Run predictions on sample images:
-
 python predict.py --image asl_alphabet_test/A_test.jpg
-
 Example output:
-
 Predicted: A
 Confidence: 98.7%
 
@@ -99,13 +86,9 @@ Confidence: 98.7%
 ## Configuration
 
 Modify training/testing parameters in config.py:
-
 Dataset paths
-
 Batch size
-
 Learning rate
-
 Epochs
 
 ---
@@ -113,9 +96,7 @@ Epochs
 ## Future Enhancements
 
 Real-time gesture recognition using webcam.
-
 Extend to word-level translation.
-
 Improve robustness with larger datasets.
 
 ---
@@ -125,4 +106,4 @@ Improve robustness with larger datasets.
 Developed by [Vishnu Prasad A]
 For learning, research, and assistive technology development.
 
---
+---
