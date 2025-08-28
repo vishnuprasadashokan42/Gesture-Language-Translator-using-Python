@@ -71,11 +71,9 @@ python evaluate.py
 
 This outputs:
 
-Accuracy & loss
-
-Classification metrics
-
-Confusion matrix
+- Accuracy & loss
+- Classification metrics
+- Confusion matrix
 
 ---
 
@@ -86,9 +84,8 @@ python predict.py --image asl_alphabet_test/A_test.jpg
 
 Example output:
 
-Predicted: A
-
-Confidence: 98.7%
+- Predicted: A
+- Confidence: 98.7%
 
 ---
 
