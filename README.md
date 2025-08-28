@@ -47,27 +47,29 @@ Gesture Language Translator - Alphabet/
 1. Clone this repository or extract the ZIP.
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ---
 
 ## Training the Model
 
 To train the model from scratch:
-python train.py
+
+    python train.py
 
 This will:
 
-1. Load dataset paths from config.py
-2. Build the model from model.py
-3. Save the trained model as asl_model.h5
+- Load dataset paths from config.py
+- Build the model from model.py
+- Save the trained model as asl_model.h5
 
 ---
 
 ## Evaluating the Model
 
 To evaluate the trained model:
-python evaluate.py
+
+    python evaluate.py
 
 This outputs:
 
@@ -80,12 +82,13 @@ This outputs:
 ## Predicting Gestures
 
 Run predictions on sample images:
-python predict.py --image asl_alphabet_test/A_test.jpg
+
+    python predict.py --image asl_alphabet_test/A_test.jpg
 
 Example output:
 
-- Predicted: A
-- Confidence: 98.7%
+    Predicted: A
+    Confidence: 98.7%
 
 ---
 
