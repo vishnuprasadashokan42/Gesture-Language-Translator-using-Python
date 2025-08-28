@@ -58,11 +58,9 @@ python train.py
 
 This will:
 
-Load dataset paths from config.py
-
-Build the model from model.py
-
-Save the trained model as asl_model.h5
+1. Load dataset paths from config.py
+2. Build the model from model.py
+3. Save the trained model as asl_model.h5
 
 ---
 
@@ -98,30 +96,25 @@ Confidence: 98.7%
 
 Modify training/testing parameters in config.py:
 
-Dataset paths
-
-Batch size
-
-Learning rate
-
-Epochs
+- Dataset paths
+- Batch size
+- Learning rate
+- Epochs
 
 ---
 
 ## Future Enhancements
 
-Real-time gesture recognition using webcam.
-
-
-Extend to word-level translation.
-
-Improve robustness with larger datasets.
+- Real-time gesture recognition using webcam.
+- Extend to word-level translation.
+- Improve robustness with larger datasets.
 
 ---
 
 ## Author
 
-Developed by [Vishnu Prasad A]
+Developed by Vishnu Prasad A, BE. ECE
+
 For learning, research, and assistive technology development.
 
 ---
