@@ -45,7 +45,7 @@ Gesture Language Translator - Alphabet/
 ## Installation
 
 1. Clone this repository or extract the ZIP.  
-2. Download the whole project [Gesture_Language_Translator-Sentences](https://drive.google.com/file/d/1GpHC9BSq9g7qIDXa6EsAf0gJ-I8kGow1/view?usp=drivesdk) and place it in the project root folder.  
+2. Download the whole project from google drive [Gesture_Language_Translator-Sentences](https://drive.google.com/file/d/1GpHC9BSq9g7qIDXa6EsAf0gJ-I8kGow1/view?usp=drivesdk)'  
 3. Install dependencies:
    ```bash
     pip install -r requirements.txt
