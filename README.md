@@ -44,11 +44,12 @@ Gesture Language Translator - Alphabet/
 
 ## Installation
 
-1. Clone this repository or extract the ZIP.
-2. Install dependencies:
+1. Clone this repository or extract the ZIP.  
+2. Download the pre-trained model [`asl_model.h5`](https://drive.google.com/file/d/1GpHC9BSq9g7qIDXa6EsAf0gJ-I8kGow1/view?usp=drivesdk) and place it in the project root folder.  
+3. Install dependencies:
    ```bash
     pip install -r requirements.txt
-
+   
 ---
 
 ## Training the Model
